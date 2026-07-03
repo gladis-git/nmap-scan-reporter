@@ -1,1 +1,36 @@
+NMAP SCAN REPORT
 
+Project Name:
+Nmap Scan Reporter
+
+Target:
+localhost (127.0.0.1)
+
+Scan Date:
+03 July 2026
+
+Command Used:
+nmap -sV 127.0.0.1
+
+Results:
+
+Host Status:
+Host is up.
+
+Port Status:
+No open ports were detected among the 1000 commonly scanned TCP ports.
+
+Findings:
+
+* The target system responded successfully to the scan.
+* Service version detection was performed.
+* All scanned TCP ports were closed.
+* No network services were exposed on the scanned ports.
+
+Analysis:
+
+The scan indicates that no active services were listening on the default 1000 TCP ports. This reduces the network attack surface and limits remote access opportunities.
+
+Conclusion:
+
+This project demonstrates host discovery, port scanning, service detection, and interpretation of Nmap scan results using a local system.
